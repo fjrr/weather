@@ -14,6 +14,12 @@
 		<module>weather-webapp</module>
 	</modules>
 
+	<scm>
+		<connection>scm:git:git@github.com:fjrr/weather.git</connection>
+		<url>scm:git:git@github.com:fjrr/weather.git</url>
+		<developerConnection>scm:git:git@github.com:fjrr/weather.git</developerConnection>		
+	</scm>
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -122,10 +128,5 @@
 				</plugins>
 			</build>
 		</profile>
-	</profiles>
-	<scm>
-		<connection>scm:git:git@github.com:fjrr/weather.git</connection>
-		<url>scm:git:git@github.com:fjrr/weather.git</url>
-		<developerConnection>scm:git:git@github.com:fjrr/weather.git</developerConnection>		
-	</scm>
+	</profiles>	
 </project>
